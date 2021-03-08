@@ -25,3 +25,5 @@ similarly for simulations of both the Gauss-Markov model and Random Telegraph mo
 **ct_kalman_filter** is a helper function used in monte_carlo_gm to automate calculations
 
 **tele_kalman_filt** is a helper function used in monte_carlo_tele to automate calculations
+
+**residual_tele** and **residual_gm** are MATLAB diaries showing residuals are an independent sequence
