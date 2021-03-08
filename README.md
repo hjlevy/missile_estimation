@@ -15,10 +15,13 @@ similarly for simulations of both the Gauss-Markov model and Random Telegraph mo
 ## Code Descriptions
 
 one_real_gm runs one realization of the continuous time kalman filter using the gauss-markov model. It plots the true states vs. the estimated states
+
 one_real_tele runs one realization of the continuous time kalman filter using the random telegraph model. It plots the true states vs. the estimated states
 
 monte_carlo_gm runs a monte carlo simulation of the continuous time kalman filter using the gauss-markov model. It plots the simulated root mean square error of the states versus those calculated by the filter.
+
 monte_carlo_tele runs a monte carlo simulation of the continuous time kalman filter using the telegraph model. It plots the simulated root mean square error of the states versus those calculated by the filter.
 
 ct_kalman_filter is a helper function used in monte_carlo_gm to automate calculations
+
 tele_kalman_filt is a helper function used in monte_carlo_tele to automate calculations
